@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registerBusiness</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../grid.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="shortcut icon" href="https://viecngon.com/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="wrap-header">
+                <div class="header_left">
+                    <div class="header_logo">
+                        <img src="https://cdn.viecngon.com/photos/2214/viecngon-logo.png?fbclid=IwAR3HsaNbcmCFOGUTnhmq3MNDZk68HTOQ_v8PMCyR6GOM9NIuoGMBSq04WKE" alt="">
+                    </div>
+                    <ul class="nav">
+                        <li><a style="color: white;" href="../businesspage/index.html">My CareerLink</a></li>
+                        <li><a style="color: white;" href="../postbusiness/index.html">Đăng Tuyển dụng</a></li>
+                        <li><a href="">Tìm Hồ sơ</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="header_right">
+                    <div class="flag">
+                        <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/flags/vi.svg" alt="">
+                    </div>
+                    <div class="chat chat--separate">
+                        <i class="fas fa-comment-alt"></i>
+                    </div>
+                    <div class="register register--separate">
+                        <div class="register_logo">
+                            <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/common/no-logo.png" alt="">
+                        </div>
+                        <span>Đăng Ký</span>
+                        <div class="arrowdown">
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+
+                        <div class="wrap_register">
+                            <button class="btn_wrap_register btn_wrap_register--active">Đăng nhập</button>
+                            <button class="btn_wrap_register">Đăng ký</button>
+                        </div>
+                    </div>
+                    <div class="textforseeker"><a style="color: white;" href="../index.html">Cho người tìm việc</a></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- dang ky bus -->
+        <div class="buss-body">
+            <div class="wrap_buss">
+                <div class="buss-regis">
+                    <div class="buss-regis__header">
+                        <h3 class="buss-regis__heading">Nhà tuyển dụng đăng ký</h3>
+                    </div>
+                    <span class="buss-regis__title">
+                        Tạo tài khoản để tiếp cận kho ứng viên chất lượng và bắt đầu đăng việc ngay
+                    </span>
+    
+                    <div class="buss-regis__form">
+                        <div class="buss-regis__input">
+                            <input class="input email" placeholder="Email" type="text">
+                            <!-- <input type="text" name="" placeholder="Email" required id="contact-email" class="input"> -->
+                            <p class="confirm">Sử dụng email công việc để xác thực nhanh hơn</p>
+                        </div>
+                        <div class="buss-regis__input">
+                            <input class="input password" placeholder="Mật khẩu" type="password">
+                        </div>
+                        <div class="buss-regis__input">
+                            <input class="input" placeholder="Nhập lại mật khẩu" type="password">
+                        </div>
+                    </div>
+    
+                    <div class="buss-regis__check">
+                        <span>
+                            <input class="checkb" type="checkbox">
+                            <label class="show_pw" for="">Hiển thị mật khẩu</label>
+                        </span>
+                    </div>
+    
+                    <h4 class="buss-regis__info">Thông tin công ty</h4>
+                    <div class="info-input">
+                        <div class="buss-regis__input">
+                            <input class="input namecompany" placeholder="Tên công ty" type="text">
+                        </div>
+                        <div class="buss-regis__input">
+                            <select name="browser" class="input-black">
+                                <option value="">Số nhân viên</option>
+                                <option value="">Ít hơn 10 nhân viên</option>
+                                <option value="">10-24 nhân viên</option>
+                                <option value="">25-99 nhân viên</option>
+                                <option value="">100-499 nhân viên</option>
+                                <option value="">500-999 nhân viên</option>
+                                <option value="">1000-4.999 nhân viên</option>
+                                <option value="">5000-9.999 nhân viên</option>
+                                <option value="">Hơn 10.000 nhân viên</option>
+                            </select>
+                        </div>
+                        <input class="input nameowner" placeholder="Người liên hệ" type="text">
+                        <input class="input phone" placeholder="Số điện thoại" type="text">
+                    </div>
+    
+                    <h5 class="buss-regis__address">Địa chỉ</h5>
+                    <div class="address-input">
+                        <select name="browser" class="country">
+                            <option value="">Việt Nam</option>
+                            <option value="">USA</option>
+                            <option value="">ThaiLand</option>
+                            <option value="">Laos</option>
+                            <option value="">Korea</option>
+                            <option value="">Japan</option>
+                            <option value="">Malaysia</option>
+                            <option value="">Indonisia</option>
+                            <option value="">Philippin</option>
+                        </select>
+    
+                        <select name="browser">
+                            <option value="">Chọn tỉnh / thành</option>
+                            <option value="">Hà Nội</option>
+                            <option value="">Đà Nẵng</option>
+                            <option value="">TP HCM</option>
+                            <option value="">Nha Trang</option>
+                            <option value="">Khánh Hòa</option>
+                            <option value="">Thái Bình</option>
+                            <option value="">Quảng Nam</option>
+                            <option value="">Huế</option>
+                        </select>
+    
+                        <select name="browser">
+                            <option value="">Chọn quận / huyện</option>
+                        </select>
+    
+                    </div>
+                    <div class="buss-regis__check">
+                        <span>
+                            <input class="checkb" type="checkbox">
+                            <label class="show_pw" for="">Nhận bản tin việc làm</label>
+                        </span>
+                    </div>
+    
+                    <!-- <div>
+                        <button class="buss-regis__submit">Đăng ký ngay</button>
+                    </div> -->
+                    <div class="buss-regis__submit">
+                        <a href="#"><button class="btn-regis">Đăng ký ngay</button></a>
+                    </div>
+    
+                    <div class="buss-regis__lable">
+                        <p class="auth-form__policy">Khi đăng ký, tôi đã đồng ý với
+                            <a href="" class="auth-form__policy-link">Thỏa thuận sử dụng, Quy định bảo mật,</a> và
+                            <a href="" class="auth-form__policy-link">Quy chế hoạt động</a> của ViecNgon.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer">
+            <div class="footer_top">
+                <div class="grid wide">
+                    <div class="wrap_footer_top">
+                        <div class="row">
+                            <div class="col l-3">
+                                <div class="footer_top_title">
+                                    Về ViecNgon
+                                </div>
+
+                                <ul class="footer_top_list">
+                                    <li><a href="">Về chúng tôi</a></li>
+                                    <li><a href="">Quy chế hoạt động</a></li>
+                                    <li><a href="">Quy định bảo mật</a></li>
+                                    <li><a href="">Thoả thuận sử dụng</a></li>
+                                    <li><a href="">Liên hệ</a></li>
+                                    <li><a href="">Sơ đồ trang web</a></li>
+                                    <li><a href="">VietNgon.asia</a></li>
+                                </ul>
+                            </div>
+                            <div class="col l-3">
+                                <div class="row">
+                                    <div class="col l-12">
+                                        <div class="wrap_footer_top_section">
+                                            <div class="footer_top_title">
+                                                Dành cho ứng viên
+                                            </div>
+
+                                            <ul class="footer_top_list">
+                                                <li><a href="">Việc làm</a></li>
+                                                <li><a href="">Tìm việc làm nhanh</a></li>
+                                                <li><a href="">Công ty</a></li>
+                                                <li><a href="">Cẩm Nang Việc Làm</a></li>
+                                                <li><a href="">Mẫu CV xin việc</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col l-12">
+                                        <div class="wrap_footer_top_section">
+                                            <div class="footer_top_title">
+                                                Dành cho nhà tuyển dụng
+                                            </div>
+
+                                            <ul class="footer_top_list">
+                                                <li><a href="">Dịch vụ nhân sự cao cấp</a></li>
+                                                <li><a href="">Cẩm nang tuyển dụng</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3">
+                                <div class="row">
+                                    <div class="col l-12">
+                                        <div class="wrap_footer_top_section">
+                                            <div class="footer_top_title">
+                                                Việc làm theo khu vực
+                                            </div>
+
+                                            <ul class="footer_top_list">
+                                                <li><a href="">Hồ Chí Minh</a></li>
+                                                <li><a href="">Hà Nội</a></li>
+                                                <li><a href="">Đà Nẵng</a></li>
+                                                <li><a href="">Hải Phòng</a></li>
+                                                <li><a href="">Cần Thơ</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col l-12">
+                                        <div class="wrap_footer_top_section">
+                                            <div class="footer_top_title">
+                                                Việc làm theo ngành nghề
+                                            </div>
+
+                                            <ul class="footer_top_list">
+                                                <li><a href="">Kế toán</a></li>
+                                                <li><a href="">Tiếng Nhật</a></li>
+                                                <li><a href="">Ngân hàng</a></li>
+                                                <li><a href="">IT - Phần mềm</a></li>
+                                                <li><a href="">IT - Phần cứng / Mạng</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3">
+                                <div class="row">
+                                    <div class="col l-12">
+                                        <div class="wrap_footer_top_section">
+                                            <div class="footer_top_title">
+                                                Chứng nhận
+                                            </div>
+
+                                            <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/common/online-gov-registed.png"
+                                                alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col l-12">
+                                        <div class="wrap_footer_top_section">
+                                            <div class="footer_top_title">
+                                                Kết nối với VietNgon.vn
+                                            </div>
+
+                                            <i class="fab fa-facebook"></i>
+                                            <i class="fab fa-linkedin"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_bottom">
+                <div class="grid wide">
+                    <div class="footer_bootom_banner">
+                        <img src="https://cdn.viecngon.com/photos/2214/viecngon-logo.png?fbclid=IwAR2dvchITvGjF4NCmFnrtofMNZTamfG0ei4mFuH1_y4mGQnGnj4CZkBRLrY" alt="">
+                    </div>
+                    <p class="footer_bottom_address">
+                        Tuyển dụng, tìm kiếm việc làm trực tuyến tại VietNgon.vn | Customer Care:(028) 3813 0501 / contact@VietNgon.vn </br>
+                        CTY TNHH VIETNGON | GPĐKKD số 0123456789 do Sở KHĐT Tp.Đà Nẵng cấp ngày 13/05/2022</br>
+                        270 - 272 Cộng Hòa, P13, Q Liên Chiểu, Tp Đà Nẵng Copyright © 2007-2020 by https://www.careerlink.vn All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

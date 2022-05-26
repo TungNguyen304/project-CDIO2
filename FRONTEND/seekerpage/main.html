@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="shortcut icon" href="https://viecngon.com/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+        <div class="wrap-header">
+            <div class="header_left">
+                <div class="header_logo">
+                    <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/logo@2x.png" alt="">
+                </div>
+                <ul class="nav">
+                    <li><a href="./searchseeker/index.html">
+                            <i class="fas fa-search"></i>
+                            Ngành nghề/ Địa điểm
+                        </a></li>
+                    <li><a href="">
+                            <i class="fas fa-building"></i>
+                            Công ty
+                        </a></li>
+                    <li><a href="">
+                            <i class="fas fa-book-open"></i>
+                            Cẩm nang việc làm
+                        </a></li>
+                </ul>
+            </div>
+            <div class="header_right">
+                <div class="flag">
+                    <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/flags/vi.svg" alt="">
+                </div>
+                <div class="chat chat--separate">
+                    <i class="fas fa-comment-alt"></i>
+                </div>
+                <div class="register register--separate">
+                    <div class="register_logo">
+                        <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/common/avatar_placeholder.png" alt="">
+                    </div>
+                    <span>Đăng Ký</span>
+                    <div class="arrowdown">
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+
+                    <div class="wrap_register">
+                        <div class="wrap_register_top">
+                            <a href="../loginbusiness/login.html"><button class="btn_wrap_register btn_wrap_register--active">Đăng nhập</button></a>
+                            <a href="../registerseeker/index.html"><button class="btn_wrap_register">Đăng ký</button></a>
+                            <a href="#"><button style="display: none;" class="btn_wrap_register signout">Đăng xuất</button></a>
+                        </div>
+                        <div class="wrap_register_bot">
+                            <a href="#" class="wrap_register_left">
+                                <i class="fas fa-briefcase"></i>
+                                <div class="wrap_register_left_text">
+                                    My CareerLink
+                                </div>
+                            </a>
+                            <ul class="wrap_register_list">
+                                <li><a href="../profileseeker/index.html">
+                                        <i class="fas fa-id-badge"></i>
+                                        Hồ sơ xin việc
+                                    </a></li>
+                                <li><a href="">
+                                        <i class="fas fa-heart"></i>
+                                        Việc đã lưu
+                                    </a></li>
+                                <li><a href="">
+                                        <i class="fas fa-paper-plane"></i>
+                                        Việc đã ứng tuyển
+                                    </a></li>
+                                <li><a href="">
+                                        <i class="fas fa-bell"></i>
+                                        Thông báo việc làm
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="textforseeker"><a href="../homebussiness/index.html">Nhà tuyển dụng</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="nav_content1">
+            <ul class="nav_content_item">
+                <li class="item active"><i class="fas fa-home"></i> My careeerlink</li>
+
+                <li class="item"><i class="fas fa-address-card"></i> myresumes</li>
+
+                <li class="item"><i class="fas fa-heart"></i> my save jobs</li>
+
+                <li class="item"><i class="fas fa-paper-plane"></i> My applied jobs</li>
+
+                <li class="item"><i class="fas fa-bell"></i> job alerts</li>
+
+                <li class="item"><i class="fas fa-user"></i> my account</li>
+            </ul>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="row">
+            <div class="col l-4">
+                <div class="nav_content">
+                    <div class="content_Recent">
+                        <h3>Hồ sơ xin việc của tôi</h3>
+                        <div class="Recent_item not_profile">
+                            <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/pages/my_careerlink/cover-letters-empty.png"
+                                alt="">
+                            <h4>Chưa có hồ sơ việc làm nào được thiết lập</h4>
+                        </div>
+                        <div class="wrap_file">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l-4">
+                <div class="nav_content">
+                    <div class="content_Recent">
+                        <h3>Các công việc đã ứng tuyển gần đây</h3>
+                        <div class="Recent_item">
+                            <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/pages/my_careerlink/applied-jobs-empty.png"
+                                alt="">
+                            <h4>Không có việc ứng tuyển gần đây</h4>
+                        </div>
+
+                        <div class="wrap_post_item">
+                            <!-- <div class="post_item">
+                                <div class="row">
+                                  <div class="col l-6">
+                                      <div class="post_company">
+                                          Công ty :
+                                          <span>ABC</span>
+                                      </div>
+                                      <div class="post_position">
+                                          Chức vụ :
+                                          <span>Giám đốc</span>
+                                      </div>
+                                      <div class="post_info">
+                                          <span class="post_address">Việt Nam</span>
+                                          <span class="post_salary">50000000<span>vnđ</span></span>
+                                      </div>
+                                  </div>
+                                  <div class="col l-6">
+                                      <div class="row" style="height: 100%;">
+                                          <div class="col l-6">
+                                              <div class="feature">
+                                                  <i class="fas fa-folder"></i>
+                                                  0
+                                                  <i class="fas fa-eye"></i>
+                                                  0
+                                              </div>
+                                          </div>
+                                          <div class="col l-6">
+                                              <div class="manager">
+                                                  <div>
+                                                      <i class="fas fa-ellipsis-h"></i>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                           </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l-4">
+                <div class="nav_content">
+                    <div class="content_Recent">
+                        <h3>Thông báo việc làm của tôi</h3>
+                        <div class="Recent_item">
+                            <img src="https://www.careerlink.vn/web/images/pages/my_careerlink/job-alerts-empty.png"
+                                alt="">
+                            <h4>Chưa có thông báo việc làm nào được thiết lập</h4>
+                        </div>
+
+                        <div class="wrap_notifi">
+                            <!-- <div class="notifi_item">
+                                <div class="notifi_text">Công ty <span class="notifi_company">ABC</span> đã Từ chối Bạn</div>
+                                <div class="notifi_time">16/5/2022</div>
+                            </div>
+                            <div class="notifi_item success">
+                                <div class="notifi_text">Công ty <span class="notifi_company">ABC</span> đã đồng ý Bạn</div>
+                                <div class="notifi_time">16/5/2022</div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer_top">
+            <div class="grid wide">
+                <div class="wrap_footer_top">
+                    <div class="row">
+                        <div class="col l-3">
+                            <div class="footer_top_title">
+                                Về CareerLink
+                            </div>
+
+                            <ul class="footer_top_list">
+                                <li><a href="">Về chúng tôi</a></li>
+                                <li><a href="">Quy chế hoạt động</a></li>
+                                <li><a href="">Quy định bảo mật</a></li>
+                                <li><a href="">Thoả thuận sử dụng</a></li>
+                                <li><a href="">Liên hệ</a></li>
+                                <li><a href="">Sơ đồ trang web</a></li>
+                                <li><a href="">CareerLink.asia</a></li>
+                            </ul>
+                        </div>
+                        <div class="col l-3">
+                            <div class="row">
+                                <div class="col l-12">
+                                    <div class="wrap_footer_top_section">
+                                        <div class="footer_top_title">
+                                            Dành cho ứng viên
+                                        </div>
+
+                                        <ul class="footer_top_list">
+                                            <li><a href="">Việc làm</a></li>
+                                            <li><a href="">Tìm việc làm nhanh</a></li>
+                                            <li><a href="">Công ty</a></li>
+                                            <li><a href="">Cẩm Nang Việc Làm</a></li>
+                                            <li><a href="">Mẫu CV xin việc</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                                <div class="col l-12">
+                                    <div class="wrap_footer_top_section">
+                                        <div class="footer_top_title">
+                                            Dành cho nhà tuyển dụng
+                                        </div>
+
+                                        <ul class="footer_top_list">
+                                            <li><a href="">Dịch vụ nhân sự cao cấp</a></li>
+                                            <li><a href="">Cẩm nang tuyển dụng</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="row">
+                                <div class="col l-12">
+                                    <div class="wrap_footer_top_section">
+                                        <div class="footer_top_title">
+                                            Việc làm theo khu vực
+                                        </div>
+
+                                        <ul class="footer_top_list">
+                                            <li><a href="">Hồ Chí Minh</a></li>
+                                            <li><a href="">Hà Nội</a></li>
+                                            <li><a href="">Đà Nẵng</a></li>
+                                            <li><a href="">Hải Phòng</a></li>
+                                            <li><a href="">Cần Thơ</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                                <div class="col l-12">
+                                    <div class="wrap_footer_top_section">
+                                        <div class="footer_top_title">
+                                            Việc làm theo ngành nghề
+                                        </div>
+
+                                        <ul class="footer_top_list">
+                                            <li><a href="">Kế toán</a></li>
+                                            <li><a href="">Tiếng Nhật</a></li>
+                                            <li><a href="">Ngân hàng</a></li>
+                                            <li><a href="">IT - Phần mềm</a></li>
+                                            <li><a href="">IT - Phần cứng / Mạng</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="row">
+                                <div class="col l-12">
+                                    <div class="wrap_footer_top_section">
+                                        <div class="footer_top_title">
+                                            Chứng nhận
+                                        </div>
+
+                                        <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/common/online-gov-registed.png"
+                                            alt="">
+                                    </div>
+
+                                </div>
+
+                                <div class="col l-12">
+                                    <div class="wrap_footer_top_section">
+                                        <div class="footer_top_title">
+                                            Kết nối với CareerLink.vn
+                                        </div>
+
+                                        <i class="fab fa-facebook"></i>
+                                        <i class="fab fa-linkedin"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <div class="grid wide">
+                <div class="footer_bootom_banner">
+                    <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/logo@2x.png" alt="">
+                </div>
+                <p class="footer_bottom_address">
+                    Tuyển dụng, tìm kiếm việc làm trực tuyến tại CareerLink.vn | Customer Care:(028) 3813 0501 /
+                    contact@CareerLink.vn </br>
+                    CTY TNHH CAREERLINK | GPĐKKD số 0400539269 do Sở KHĐT Tp.HCM cấp ngày 05/04/2006</br>
+                    270 - 272 Cộng Hòa, P13, Q Tân Bình, Tp HCM Copyright © 2007-2020 by https://www.careerlink.vn All
+                    rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const $ = document.querySelector.bind(document);
+        const $$ = document.querySelectorAll.bind(document);
+        const item = $$(".item");
+        const line = $(".line");
+        const tabActive = $(".item.active");
+        line.style.left = tabActive.offsetLeft + 50 + "px";
+        line.style.width = tabActive.offsetWidth + "px";
+
+        item.forEach((tab, index) => {
+            tab.onclick = function () {
+                $(".item.active").classList.remove("active");
+                line.style.left = this.offsetLeft + 50 + "px";
+                line.style.width = this.offsetWidth + "px";
+                this.classList.add("active");
+            };
+        });
+
+    </script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

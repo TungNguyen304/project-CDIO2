@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="https://viecngon.com/favicon.png" type="image/x-icon">
+</head>
+
+
+<body>
+
+    <div class="main">
+        <div class="header">
+            <div class="wrap-header">
+                <div class="header_left">
+                    <div class="header_logo">
+                        <img src="https://cdn.viecngon.com/photos/2214/viecngon-logo.png?fbclid=IwAR0q0spKXKgtam10gEufJogmzimyQ2Ban9HJosLT8ZW9bR6zFTHT1SxlGYw"
+                            alt="">
+                    </div>
+                    <ul class="nav">
+                        <li>
+                            <a style="color: red;" href="./searchseeker/index.html">
+                                <i class="fas fa-search"></i> Ngành nghề/ Địa điểm
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fas fa-building"></i> Công ty
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fas fa-book-open"></i> Cẩm nang việc làm
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header_right">
+                    <div class="flag">
+                        <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/flags/vi.svg" alt="">
+                    </div>
+                    <div class="chat chat--separate">
+                        <i class="fas fa-comment-alt"></i>
+                    </div>
+                    <div class="register register--separate">
+                        <div class="register_logo">
+                            <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/common/avatar_placeholder.png"
+                                alt="">
+                        </div>
+                        <span>Đăng Ký</span>
+                        <div class="arrowdown">
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+
+                        <div class="wrap_register">
+                            <div class="wrap_register_top">
+                                <a href="../loginbusiness/login.html"><button class="btn_wrap_register btn_wrap_register--active">Đăng nhập</button></a>
+                                <a href="../registerseeker/index.html"><button class="btn_wrap_register">Đăng ký</button></a>
+                                <a href="#"><button style="display: none;" class="btn_wrap_register signout">Đăng xuất</button></a>
+                            </div>
+                            <div class="wrap_register_bot">
+                                <a style="color: red;" href="../seekerpage/main.html" class="wrap_register_left">
+                                    <i class="fas fa-briefcase"></i>
+                                    <div class="wrap_register_left_text">
+                                        My CareerLink
+                                    </div>
+                                </a>
+                                <ul class="wrap_register_list">
+                                    <li>
+                                        <a style="color: red;" href="#">
+                                            <i class="fas fa-id-badge"></i> Hồ sơ xin việc
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fas fa-heart"></i> Việc đã lưu
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fas fa-paper-plane"></i> Việc đã ứng tuyển
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fas fa-bell"></i> Thông báo việc làm
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="textforseeker"><a style="color: red;" href="../homebussiness/index.html">Nhà tuyển
+                            dụng</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="web-step">
+            <div class="step active">
+                <h1 class="info ">Bước 1</h1>
+                <p class="step-info">Thông tin cá nhân</p>
+            </div>
+            <div class="step">
+                <h1 class="info">Bước 2</h1>
+                <p class="step-info1">Thông tin cá nhân</p>
+            </div>
+            <div class="step">
+                <h1 class="info">Bước 3</h1>
+                <p class="step-info2">Thông tin cá nhân</p>
+            </div>
+            <div class="step">
+                <h1 class="info">Bước 4</h1>
+                <p class="step-info3">Thông tin cá nhân</p>
+            </div>
+            <div class="step">
+                <h1 class="info">Bước 5</h1>
+                <p class="step-info4">Thông tin cá nhân</p>
+            </div>
+        </div>
+
+
+        <div class="Page1" style="display: none;">
+            <h2 class="info-center1--h2" style="font-size: 40px ; ">Thông Tin Cá Nhân</h2>
+            <div class="info-center1">
+                <p>Tiêu đề hồ sơ</p>
+                <input class="info-center1--input" type="text">
+            </div>
+            <div class="info-center2">
+                <div class="info-center2--hoten">
+                    <p>Họ và tên</p>
+                    <input class="hoten-input" type="text">
+                </div>
+                <div class="info-center2--quoctich">
+                    <p>Quốc tịch</p>
+                    <select class="quoctich-select" name="quốc tịch" id="">
+                        <option value="">...</option>
+                        <option value="">Việt Nam</option>
+                        <option value="">USA</option>
+                        <option value="">ThaiLand</option>
+                        <option value="">Laos</option>
+                        <option value="">Korea</option>
+                        <option value="">Japan</option>
+                        <option value="">Malaysia</option>
+                        <option value="">Indonisia</option>
+                        <option value="">Philippin</option>
+                    </select>
+                </div>
+            </div>
+            <div class="info-center3">
+                <div class="center3-left">
+                    <div class="left1">
+                        <p>Ngày sinh</p>
+                        <div class="wrap_day">
+                            <select class="browser-day" name="browser">
+                                <option value="">...</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+                                <option value="">13</option>
+                                <option value="">14</option>
+                                <option value="">15</option>
+                                <option value="">16</option>
+                                <option value="">17</option>
+                                <option value="">18</option>
+                                <option value="">19</option>
+                                <option value="">20</option>
+                                <option value="">21</option>
+                                <option value="">22</option>
+                                <option value="">23</option>
+                                <option value="">24</option>
+                                <option value="">25</option>
+                                <option value="">26</option>
+                                <option value="">27</option>
+                                <option value="">28</option>
+                                <option value="">29</option>
+                                <option value="">30</option>
+                                <option value="">31</option>
+                            </select>
+                            <select class="browser-month" name="browser">
+                                <option value="">...</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+                            </select>
+                            <select class="browser-year" name="browser">
+                                <option value="">...</option>
+                                <option value="">1999</option>
+                                <option value="">2000</option>
+                                <option value="">2001</option>
+                                <option value="">2002</option>
+                                <option value="">2003</option>
+                                <option value="">2004</option>
+                                <option value="">2005</option>
+                                <option value="">2006</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="left2">
+                        <p>Tình trạng hôn nhân</p>
+                        <form action="">
+                            <input id="single" type="radio" name="single" checked value="Độc thân">
+                            <span>Độc thân</span>
+                            <input id="married" type="radio" name="single" value="Đã kết hôn">
+                            <span>Đã kết hôn</span>
+                        </form>
+                    </div>
+                    <div class="left3">
+                        <p>Giới tính</p>
+                        <input type="radio" name="sex" checked value="Nam" id="">
+                        <span>Nam</span>
+                        <input type="radio" name="sex" value="Nữ" id="">
+                        <span>Nữ</span>
+                    </div>
+                </div>
+                <!-- Chon file -->
+                <form class="center3-right" method="post" enctype="multipart/form-data">
+                    <img class="right-anh" src="https://www.careerlink.vn/web/images/common/avatar_placeholder.png"
+                        alt="ảnh ">
+                    <input class="choose_image" type="file" name="tenfile"><br>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="page2" style="display: none;">
+            <h2 class="tieude" style="font-size: 40px;">Thông tin liên hệ</h2>
+            <p>Điện thoại</p>
+            <input class="phone" style="width:700px ; height: 30px; ;" type="text">
+            <p>E-mail</p>
+            <input class="email" style="width:700px ; height: 30px; ;" type="text">
+            <p>Quốc gia</p>
+            <select class="select-quocgia" name="quocgia" id="0">
+                <option value="">Việt Nam</option>
+                <option value="">Thái Lan</option>
+                <option value="">Mỹ</option>
+                <option value="">Pháp</option>
+            </select>
+            <p>Địa chỉ nhà</p>
+            <input class="address" style="width:700px ; height: 30px; ;" type="text">
+        </div>
+
+        <div class="page3" style="display: none;">
+            <h3 style="font-size:40px ;margin-left: 250px ;">Học vấn</h3>
+            <p>Trình độ học vấn</p>
+            <select class="tdhv" name="" id="">
+                <option value="">Vui lòng chọn</option>
+                <option value="">Trung học cơ sở</option>
+                <option value="">Trung học phổ thông</option>
+                <option value="">Chứng chỉ</option>
+                <option value="">Trung cấp</option>
+                <option value="">Cao đẳng</option>
+                <option value="">Đại học</option>
+            </select>
+            <p>Tên trường</p>
+            <select class="tentruong" name="vui lòng chọn" id="vui lòng chọn">
+                <option value="">Vui lòng chọn</option>
+                <option value="">Duy Tân</option>
+                <option value="">Bách Khoa</option>
+                <option value="">Đông Á</option>
+                <option value="">PFT</option>
+                <option value="">Kĩ Thuật</option>
+                <option value="">Y</option>
+            </select>
+            <p>Chuyên môn</p>
+            <select class="chuyenmon" name="" id="">
+                <option value="">Báo chí</option>
+                <option value="">Bảo hiểm</option>
+                <option value="">Âm nhạc</option>
+                <option value="">Công nghệ sinh học</option>
+                <option value="">Dịch vụ cá nhân</option>
+                <option value="">Dược phẩm </option>
+                <option value="">Địa lý</option>
+            </select>
+            <div class="ngay">
+                <div class="ngaybd">
+                    <p class="ngaybd11">Ngày bắt đầu</p>
+                    <p class="ngaykt11">Ngày kết thúc</p>
+                </div>
+                <div class="ngaykt">
+                    <select class="ngaybd1" name="" id="">
+                        <option value="">...</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                    </select>
+                    <select class="ngaybd2" name="" id="">
+                        <option value="">...</option>
+                        <option value="">1999</option>
+                        <option value="">2000</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                        <option value="">2003</option>
+                        <option value="">2004</option>
+                        <option value="">2005</option>
+                        <option value="">2006</option>
+                    </select>
+                    <select class="ngaykt1" name="" id="">
+                        <option value="">...</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                    </select>
+                    <select class="ngaykt2" name="" id="">
+                        <option value="">...</option>
+                        <option value="">1999</option>
+                        <option value="">2000</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                        <option value="">2003</option>
+                        <option value="">2004</option>
+                        <option value="">2005</option>
+                        <option value="">2006</option>
+                    </select>
+                </div>
+            </div>
+            <p>Quá trình học vấn</p>
+
+            <input class="qthocvan" type="text">
+
+        </div>
+
+        <div class="page4" style="display: none;">
+            <h4 style="font-size:40px ;margin-left: 160px ;">Kinh nghiệm làm việc</h4>
+            <p>Tổng số năm kinh nghiệm làm việc</p>
+            <select class="sonamkn" name="" id="">
+                <option value="">...</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+                <option value="">31</option>
+            </select>
+            <div class="cty-chucdanh">
+                <div>
+                    <p>Tên công ty</p>
+                    <input class="tencty" type="text">
+                </div>
+                <div>
+                    <p>Chức danh</p>
+                    <input class="chucdanh" type="text">
+                </div>
+            </div>
+            <p>Ngành nghề việc làm</p>
+            <select class="nghanhnghe" name="" id="">
+                <option value="">Bán hàng/kinh doanh</option>
+                <option value="">bảo vệ/an nin</option>
+                <option value="">Bán lẻ/bán sĩ</option>
+                <option value="">Báo chí/biên tập viên</option>
+                <option value="">Chăm sóc sức khỏe/y Tế</option>
+                <option value="">CNTT-phần cứng</option>
+                <option value="">CNTT-phần mềm</option>
+
+            </select>
+            <div class="ngaybatdau">
+                <p>Ngày bắt đầu</p>
+                <select class="ngaybatdau-ngaybd1" name="" id="">
+                    <option value="">...</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                </select>
+                <select class="ngaybatdau-ngaybd2" name="" id="">
+                    <option value="">...</option>
+                    <option value="">1999</option>
+                    <option value="">2000</option>
+                    <option value="">2001</option>
+                    <option value="">2002</option>
+                    <option value="">2003</option>
+                    <option value="">2004</option>
+                    <option value="">2005</option>
+                    <option value="">2006</option>
+                </select>
+            </div>
+            <div class="ngayketthuc">
+                <p>Ngày kết thúc</p>
+                <select class="ngayketthuc-ngaykt1" name="" id="">
+                    <option value="">...</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                </select>
+                <select class="ngayketthuc-ngaykt2" name="" id="">
+                    <option value="">...</option>
+                    <option value="">1999</option>
+                    <option value="">2000</option>
+                    <option value="">2001</option>
+                    <option value="">2002</option>
+                    <option value="">2003</option>
+                    <option value="">2004</option>
+                    <option value="">2005</option>
+                    <option value="">2006</option>
+                </select>
+                <input class="ngayketthuc-ngaykt3" type="checkbox">
+                <span>Công việc hiện tại</span>
+            </div>
+            <p>Mô tả công việc</p>
+            <input class="mota" type="text">
+        </div>
+
+        <div class="page5" style="display: none;">
+            <h5 style="font-size:40px ;margin-left: 160px ;">Trạng thái hồ sơ</h5>
+            <div>
+                <div class="page5-1">
+                    <div class="page5-11">
+                        <h6>
+                            <input type="radio" name="search_alow" checked value="Cho phép tìm kiếm">
+                            <span>Cho phép tìm kiếm</span>
+                            <p style="color:lightslategray ;margin-left: 20px;">Nhà tuyển dụng có thể tìm thấy hồ sơ của
+                                bạn trong khp tài liệu.</p>
+                        </h6>
+                    </div>
+                </div>
+                <div class="page5-2">
+                    <div class="page5-22">
+                        <h6>
+                            <input type="radio" name="search_alow" value="Không cho phép tìm kiếm">
+                            <span>Không cho phép tìm kiếm</span>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="information">
+            <div class="finally">
+                <div class="LUU">
+                    <button style="display: none;" class="next previous">Quay lại</button>
+                    <a href="#"><input class="save save--l" type="submit"  value="Upload"></a>
+                    <button style="display: none;" class="next save--l">Tiếp Tục</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

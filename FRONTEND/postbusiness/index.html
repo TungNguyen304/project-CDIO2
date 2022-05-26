@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../grid.css" />
+    <link rel="shortcut icon" href="https://viecngon.com/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="header">
+      <div class="headertop">
+        <div class="container">
+          <ul class="headertop_container_list">
+            <li class="list_item">
+              <a href="#" title="Concact us">Concact us</a>
+            </li>
+            <li>
+              <select name="name" class="select_language">
+                <option value="English">English</option>
+                <option value="vietNam">VietNam</option>
+              </select>
+            </li>
+            <li class="list_item">
+              <a href="#" title="For Jobseekers">For Jobsekers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="headerbootom">
+        <div class="container">
+          <div class="headerbootom_list">
+            <div class="headerbootom_list_left">
+              <a href="" class="left_logo"
+                ><img
+                  src="https://cdn.viecngon.com/photos/2214/viecngon-logo.png"
+                  alt=""
+              /></a>
+              <a href="../businesspage/index.html" class="left_item item_header">My CareerLink</a>
+              <a href="" class="left_item item_post">Post Jobs</a>
+              <a href="" class="left_item item_header">Search Resumes</a>
+              <a href="" class="left_item item_header">Hiring Advice</a>
+            </div>
+
+            <div class="headerbootom_list_right">
+              <a href="" class="list_right_icon icon_mess"
+                ><span><i class="far fa-comment"></i></span
+              ></a>
+              <a href="" class="list_right_icon active">
+                <span class="icon_user">
+                  <i class="fas fa-user"></i>
+                </span>
+                <div class="user_profile">
+                  <div class="profile_container">
+                    <div class="user_profile_item">
+                      <div class="item_user">
+                        <span
+                          ><i class="fas fa-user"></i><br />
+                          <span class="item_user_photo"
+                            >Change photo</span
+                          ></span
+                        >
+                      </div>
+                      <div class="item_name">
+                        <ul>
+                          <li>ABC</li>
+                          <li>View My Account</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="item_change">
+                      <li>Change My Account Information</li>
+                      <li>Change My Email/Login ID</li>
+                      <li>Change My Password</li>
+                    </ul>
+                    <div class="sign_out">
+                      <a href=""><i class="fas fa-sign-out-alt"></i>Sign out</a>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav">
+      <div class="container">
+        <div class="nav_list">
+          <ul class="nav_list_item">
+            <li>
+              <a href="#"><i class="fas fa-home"></i></a>
+            </li>
+            <li><a href="#">Các công việc của tôi</a></li>
+            <li><a href="#">Lưu tìm kiếm hồ sơ/Thông báo hồ sơ</a></li>
+            <li><a href="#">Các thư xin việc đã nhận</a></li>
+            <li><a href="#">Hồ sơ đã lưu</a></li>
+            <li><a href="#">Mẫu thư của tôi</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="container">
+        <div>
+          <span>Đăng công việc mới - Thông tin công ty(Bước 1/4)</span>
+          <div>
+            <div class="content_step">
+              <span>Bước 1/4</span>
+            </div>
+          </div>
+          <div class="content_Obligatory">
+            <span>Những mục có dấu sao <strong>*</strong> là bắt buộc.</span>
+          </div>
+          <div class="content_form_1">
+            <div>
+              <div class="content_form_title">
+                <h4>Chức Danh</h4>
+              </div>
+              <div class="title_group">
+                <div class="title_group_input">
+                  <label for="chucdanh">Chức vụ <strong>*</strong></label>
+                  <div class="input_item">
+                    <input id="chucdanh" class="inputtext" type="text" />
+                  </div>
+                </div>
+                <div class="title_group_input">
+                  <label for="mavieclam">Mã việc làm</label>
+                  <div class="input_item">
+                    <input id="mavieclam" class="inputtext" type="text" />
+                  </div>
+                </div>
+              </div>
+              <div class="content_form_title">
+                <h4>Thông tin công ty</h4>
+              </div>
+              <div>
+                <div class="title_group_input">
+                  <label for="tencongty">Tên công ty <strong>*</strong></label>
+                  <div class="input_item">
+                    <input id="tencongty" class="inputtext" type="text" />
+                  </div>
+                </div>
+                <div class="title_group_input">
+                  <label for="soluoccongty"
+                    >Hồ sơ công ty <strong>*</strong></label
+                  >
+                  <div class="input_item">
+                    <textarea class="txt_item" name="" id="" cols="30" rows="10"></textarea>
+                  </div>
+                </div>
+                
+                <div class="title_group_input">
+                  <label for="lengthemployee">Số lượng nhân viên <strong>*</strong></label>
+                  <div class="input_item">
+                    <select id="lengthemployee" name="browser">
+                      <option>...</option>
+                      <option>Ít hơn 10</option>
+                      <option>10-24</option>
+                      <option>25-99</option>
+                      <option>100-499</option>
+                      <option>500-999</option>
+                      <option>1,000-4,999</option>
+                      <option>5,000-9,999</option>
+                      <option>10,000-19,999</option>
+                      <option>20,000-49,000</option>
+                      <option>Hơn 50,000</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="title_group_input">
+                  <label for="webcongty">Website công ty</label>
+                  <div class="input_item">
+                    <input id="webcongty" class="inputtext" type="text" />
+                  </div>
+                </div>
+
+                <div>
+                  <div class="button_item">
+                    <button class="button_item_next next1">
+                      Lưu bước 1 & chuyển đến bước 2
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content_form_2">
+            <div>
+              <div class="content_form_title">
+                <h4>Mô tả công việc</h4>
+              </div>
+              <div class="title_list">
+                <p class="items">Chức vụ</p>
+                <div class="title_cbx">
+                  <span class="item_Position">Giám đốc</span>
+                </div>
+              </div>
+              <div  class="title_list">
+                <label class="items" for="Categories_work">Hạng mục công việc 1 <strong>*</strong></label>
+                <div class="title_cbx">
+                  <select class="CategoryOfWork" id="Categories_work" name="browser">
+                    <option>Chọn danh mục</option>
+                    <option>Ô Tô</option>
+                    <option>IT</option>
+                    <option>Khách sạn</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div class="title_list">
+                <label class="items" for="">vị trí làm việc 1 <strong>*</strong></label>
+                <div class="title_cbx">
+                  <select class="workingPosition" id="Categories_work" name="browser">
+                    <option>Chọn địa điểm làm việc</option>
+                    <option>Huế</option>
+                    <option>Đà Nẵng</option>
+                    <option>Hà Nội</option>
+                  </select>
+                </div>
+              </div>
+              <div class="title_list">
+                <label class="items" for="">Lương <strong>*</strong></label>
+                <div class="title_cbx">
+                  <div class="cbx_salary">
+                    <input class="Salary" type="text" />-
+                    <select id="Categories_work" name="browser">
+                      <option>VND</option>
+                      <option>USD</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="title_list">
+                <label  class="items" for="">Tuổi</label>
+                <div class="title_cbx">
+                  <select class="old" id="Categories_work" name="browser">
+                    <option>Lựa chọn</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                    <option>32</option>
+                    </select>
+                </div>
+              </div>
+              <div class="title_list">
+                <label class="items" for="">Giới tính <strong>*</strong></label>
+                <div class="title_cbx">
+                  <select class="gender" id="Categories_work" name="browser">
+                    <option>...</option>
+                    <option>Nữ</option>
+                    <option>Nam</option>
+                    <option>Khác</option>
+                  </select>
+                </div>
+              </div>
+              <div class="title_list">
+                <label class="items" for="">Chi tiết Mô tả Công việc <strong>*</strong></label>
+                <div  class="title_cbx inputwork">
+                  <textarea  class="txt_item" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+              </div>
+              <div>
+                <div class="content_form_title">
+                  <h4>Mô tả công việc</h4>
+                </div>
+              </div>
+              <div class="title_list">
+                <label class="items" for="">Trình độ học vấn <strong>*</strong></label>
+                <div class="title_cbx">
+                  <select class="AcademicLevel" id="Categories_work" name="browser">
+                    <option>Chọn trình độ học vấn</option>
+                    <option>Thạc sĩ</option>
+                    <option>Tiến sĩ</option>
+                    <option>Bằng cấp cao</option>
+                  </select>
+                </div>
+              </div>
+              <div class="title_list">
+                <label class="items" for="Categories_work">Mức độ kinh nghiệm <strong>*</strong></label>
+                <div class="title_cbx">
+                  <select  id="Categories_work" class="ExperienceLevel" name="browser">
+                    <option>Chọn cấp kinh nghiệm</option>
+                    <option>0-1 năm kinh nghiệm</option>
+                    <option>1-2 năm kinh nghiệm</option>
+                    <option>2-5 năm kinh nghiệm</option>
+                    <option>5-10 năm kinh nghiệm</option>
+                    <option>10 năm kinh nghiệm trở lên</option>
+                  </select>
+                </div>
+              </div>
+              <div class="title_list">
+                <label class="items"  for="">Kinh nghiệm / Kỹ năng Yêu cầu Chi tiết <strong>*</strong></label>
+                <div class="title_cbx">
+                    <textarea  class="txt_item" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+              </div>
+              <div >
+                <div class="button_item">
+                  <button class="pre2">Lưu bước 2 & quay lại bước 1</button>
+                  <button class="button_item_next next2">
+                    Lưu bước 2 & chuyển đến bước 3
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content_form_3">
+              <div>
+                  <div class="content_form_title">
+                    <h4>Mô tả công việc</h4>
+                  </div>
+                <div class="title_list">
+                  <label class="items" for="Categories_work">Cách liên hệ <strong>*</strong></label>
+                  <div class="title_cbx">
+                   <span>
+                      <input class="Contact" type="checkbox" checked="true">
+                      <label for="">Nộp đơn trực tuyến</label>
+                   </span>
+                    <span>
+                        <input type="checkbox">
+                        <label for="">Áp dụng bằng tệp đính kèm</label>
+                    </span> 
+                    <span>
+                        <input type="checkbox">
+                        <label for="">Trực tiếp</label>
+                    </span>
+                  </div>
+                </div>
+                <div class="title_list">
+                  <label class="items" for="Categories_work">Ngôn ngữ <strong>*</strong></label>
+                  <div class="title_cbx">
+                    <select id="Categories_work" class="PreferredLanguage" name="browser">
+                      <option>Chọn ngôn ngữ</option>
+                      <option>Anh</option>
+                      <option>Việt</option>
+                      <option>Lào</option>
+                      <option>Thái</option>
+                      <option>Hàn</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="title_list">
+                  <label class="items" for="Categories_work">Mức độ kinh nghiệm <strong>*</strong></label>
+                  <div class="title_cbx">
+                      <textarea  class="txt_item" name="" id="" cols="30" rows="10"></textarea>
+                  </div>
+              </div>
+              <div class="title_list">
+                  <label class="items" for="Categories_work">Địa chỉ<strong>*</strong></label>
+                  <div class="title_cbx">
+                      <input class="Address" type="text">
+                  </div>
+              </div>
+              <div class="title_list">
+                  <label class="items" for="Categories_work">Tỉnh<strong>*</strong></label>
+                  <div class="title_cbx">
+                    <select  id="Categories_work" class="Country" name="browser">
+                      <option>Chọn Tỉnh</option>
+                      <option>Đà Nẵng</option>
+                      <option>Huế</option>
+                      <option>Quảng Nam</option>
+                      <option>Hà Nội</option>
+                      <option>Hồ Chí Minh</option>
+                    </select>
+                  </div>
+              </div>
+              <div class="title_list">
+                  <label class="items" for="Categories_work">Điện thoại liên hệ<strong>*</strong></label>
+                  <div class="title_cbx">
+                      <input class="ContactPhone" type="text">
+                  </div>
+              </div>
+               <div class="title_list">
+                  <label class="items" for="Categories_work">Email liên hệ<strong>*</strong></label>
+                  <div class="title_cbx">
+                      <input class="ContactEmail" type="text">
+                  </div>
+              </div>
+               <div >
+                <div class="button_item link">
+                  <button class="pre3">Lưu bước 3 & quay lại bước 2</button>
+                  <a href="#"><button class="button_item_next Submit_seeker">
+                    Submit
+                  </button></a>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+            <div class="footer_top">
+                <div class="grid wide">
+                    <div class="wrap_footer_top">
+                        <div class="row">
+                            <div class="col l-3">
+                                <div class="footer_top_title">
+                                    Về CareerLink
+                                </div>
+
+                                <ul class="footer_top_list">
+                                    <li><a href="">Về chúng tôi</a></li>
+                                    <li><a href="">Quy chế hoạt động</a></li>
+                                    <li><a href="">Quy định bảo mật</a></li>
+                                    <li><a href="">Thoả thuận sử dụng</a></li>
+                                    <li><a href="">Liên hệ</a></li>
+                                    <li><a href="">Sơ đồ trang web</a></li>
+                                    <li><a href="">CareerLink.asia</a></li>
+                                </ul>
+                            </div>
+                            <div class="col l-3">
+                                <div class="row">
+                                    <div class="col l-12">
+                                        <div class="wrap_footer_top_section">
+                                            <div class="footer_top_title">
+                                                Dành cho ứng viên
+                                            </div>
+
+                                            <ul class="footer_top_list">
+                                                <li><a href="">Việc làm</a></li>
+                                                <li><a href="">Tìm việc làm nhanh</a></li>
+                                                <li><a href="">Công ty</a></li>
+                                                <li><a href="">Cẩm Nang Việc Làm</a></li>
+                                                <li><a href="">Mẫu CV xin việc</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col l-12">
+                                        <div class="wrap_footer_top_section">
+                                            <div class="footer_top_title">
+                                                Dành cho nhà tuyển dụng
+                                            </div>
+
+                                            <ul class="footer_top_list">
+                                                <li><a href="">Dịch vụ nhân sự cao cấp</a></li>
+                                                <li><a href="">Cẩm nang tuyển dụng</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+</div>
+                            <div class="col l-3">
+                                <div class="row">
+                                    <div class="col l-12">
+                                        <div class="wrap_footer_top_section">
+                                            <div class="footer_top_title">
+                                                Việc làm theo khu vực
+                                            </div>
+
+                                            <ul class="footer_top_list">
+                                                <li><a href="">Hồ Chí Minh</a></li>
+                                                <li><a href="">Hà Nội</a></li>
+                                                <li><a href="">Đà Nẵng</a></li>
+                                                <li><a href="">Hải Phòng</a></li>
+                                                <li><a href="">Cần Thơ</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col l-12">
+                                        <div class="wrap_footer_top_section">
+                                            <div class="footer_top_title">
+                                                Việc làm theo ngành nghề
+                                            </div>
+
+                                            <ul class="footer_top_list">
+                                                <li><a href="">Kế toán</a></li>
+                                                <li><a href="">Tiếng Nhật</a></li>
+                                                <li><a href="">Ngân hàng</a></li>
+                                                <li><a href="">IT - Phần mềm</a></li>
+                                                <li><a href="">IT - Phần cứng / Mạng</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3">
+                                <div class="row">
+                                    <div class="col l-12">
+                                        <div class="wrap_footer_top_section">
+                                            <div class="footer_top_title">
+                                                Chứng nhận
+                                            </div>
+
+                                            <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/common/online-gov-registed.png"
+                                                alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col l-12">
+<div class="wrap_footer_top_section">
+                                            <div class="footer_top_title">
+                                                Kết nối với CareerLink.vn
+                                            </div>
+
+                                            <i class="fab fa-facebook"></i>
+                                            <i class="fab fa-linkedin"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_bottom">
+                <div class="grid wide">
+                    <div class="footer_bootom_banner">
+                        <img src="https://dxwd4tssreb4w.cloudfront.net/web/images/logo@2x.png" alt="">
+                    </div>
+                    <p class="footer_bottom_address">
+                        Tuyển dụng, tìm kiếm việc làm trực tuyến tại CareerLink.vn | Customer Care:(028) 3813 0501 / contact@CareerLink.vn </br>
+                        CTY TNHH CAREERLINK | GPĐKKD số 0400539269 do Sở KHĐT Tp.HCM cấp ngày 05/04/2006</br>
+                        270 - 272 Cộng Hòa, P13, Q Tân Bình, Tp HCM Copyright © 2007-2020 by https://www.careerlink.vn All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+ 
+
+    <script src="./app.js"></script>
+    </body>
+    </html>
